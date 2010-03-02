@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>name</key>
+        <string>select * from ... limit 10</string>
+        <key>uuid</key>
+        <string>EBA153EC-178E-441F-8FF5-27EF30DFBEAC</string>
+        <key>content</key>
+        <string>select  * from $1 limit 10;</string>
+        <key>scope</key>
+        <string>source.sql</string>
+        <key>tabTrigger</key>
+        <string>sfl</string>
+    </dict>
+</plist>

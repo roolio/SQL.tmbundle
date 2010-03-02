@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>name</key>
+        <string>sql function</string>
+        <key>uuid</key>
+        <string>B142A2D7-350B-4B12-85F0-771E4A0B49CB</string>
+        <key>tabTrigger</key>
+        <string>fun</string>
+        <key>content</key>
+        <string>create or replace function $1($2) returns $3 as 
+\$BODY\$
+  $0
+\$BODY\$
+language 'sql';</string>
+        <key>scope</key>
+        <string>source.sql</string>
+    </dict>
+</plist>

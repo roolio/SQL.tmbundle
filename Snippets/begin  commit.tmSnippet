@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>name</key>
+        <string>begin / commit</string>
+        <key>uuid</key>
+        <string>84BF35B1-FE70-4D0C-BC1A-2764F3B3D8B1</string>
+        <key>tabTrigger</key>
+        <string>bc</string>
+        <key>content</key>
+        <string>begin;
+  $0
+commit;</string>
+        <key>scope</key>
+        <string>source.sql</string>
+    </dict>
+</plist>

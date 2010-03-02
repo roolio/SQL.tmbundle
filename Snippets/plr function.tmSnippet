@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>name</key>
+        <string>plr function</string>
+        <key>uuid</key>
+        <string>EE9F6FA8-E488-48D8-995F-A70578327000</string>
+        <key>tabTrigger</key>
+        <string>fun</string>
+        <key>content</key>
+        <string>create or replace function $1($2) returns $3 as 
+\$BODY\$
+  $0
+\$BODY\$
+language 'plr';</string>
+        <key>scope</key>
+        <string>source.sql</string>
+    </dict>
+</plist>
